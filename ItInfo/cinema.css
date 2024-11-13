@@ -1,0 +1,101 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b12a40;
+    margin: 2px;
+    font-size: 1.2em; /* Adicionado para manter a consistência */
+}
+
+header{
+    background-color: rgb(235, 80, 80);
+    border-radius: 30px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 5px 5px 15px rgb(255, 255, 255);
+    min-height: 150px;
+    text-align: center;
+    padding-left: 40px;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+nav > a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    margin: 0 15px; /* Alterado para espaçamento uniforme */
+    transition: color 0.3s ease; /* Transição suave */
+}
+
+nav > a:hover {
+    color: rgb(235, 80, 80); /* Muda a cor do texto no hover */
+}
+
+main {
+    background-color: rgb(231, 66, 60);
+    min-width: 300px;
+    max-width: 1000px; /* Limita a largura máxima */
+    margin: auto; /* Centraliza o conteúdo */
+    margin-bottom: 30px; /* Adiciona espaço na parte inferior */
+    padding: 20px; /* Aumenta o espaçamento interno */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+article {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+article > aside {
+    background-color: rgb(128, 230, 255);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 1px;
+    font-weight: bold;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 4px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    padding: 10px; /* Adicionando um pouco de espaçamento */
+}
+
+.imagem-destaque {
+    width: 100%; /* Ajusta a largura para 100% do contêiner */
+    max-width: 600px; /* Limita a largura máxima */
+    height: auto; /* Mantém a proporção */
+    border-radius: 10px; /* Adiciona cantos arredondados */
+    margin: 10px 0; /* Adicionando espaço acima e abaixo da imagem */
+    transition: transform 0.3s, box-shadow 0.3s; /* Adiciona uma transição suave */
+}
+
+.imagem-destaque:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente a imagem */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6); /* Adiciona uma sombra mais intensa */
+}
